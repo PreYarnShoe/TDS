@@ -1,0 +1,10 @@
+name: helloworld
+
+on: push
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 22f2001330@ds.study.iitm.ac.in
+        run: echo "Hello, world!"
